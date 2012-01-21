@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Rushed By Yetis</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <link href="/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <meta name="description" content="Online generator for RBY wesnoth addon" />
+    <meta name="keywords" content="Wesnoth, Rushed By Yetis, RBY, Random Map Picker, RMP, Random Mapset Generator" />
+    <meta name="author" content="Q" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>
+          <img src="/images/yeti.png" alt="" />
+          Rushed By Yetis
+          <small>No luck can change outcome this time</small>
+        </h1>
+      </header>
+      
+      <section>
+        <%= "<p><span>#{flash[:warn]}</span></p>" unless flash[:warn].nil? %>
+        
+        <form method="post" action="/">
+          <label for="aethermaw">Aethermaw</label>
+          <input type="checkbox" name="aethermaw" id="aethermaw" value="1" checked="checked" />
+          
+          <label for="arcanclave_citadel">Arcanclave Citadel</label>
+          <input type="checkbox" name="arcanclave_citadel" id="arcanclave_citadel" value="1" checked="checked" />
+          
+          <label for="astral_port">Astral Port</label>
+          <input type="checkbox" name="astral_port" id="astral_port" value="1" />
+          
+          <label for="caves_of_the_basilisk">Caves of the Basilisk</label>
+          <input type="checkbox" name="caves_of_the_basilisk" id="caves_of_the_basilisk" value="1" checked="checked" />
+          
+          <label for="crescent_lake">Crescent Lake</label>
+          <input type="checkbox" name="crescent_lake" id="crescent_lake" value="1" />
+          
+          <label for="cynsaun_battlefield">Cynsaun Battlefield</label>
+          <input type="checkbox" name="cynsaun_battelfield" id="cynsaun_battlefield" value="1" />
+          
+          <label for="den_of_onis">Den of Onis</label>
+          <input type="checkbox" name="den_of_onis" id="den_of_onis" value="1" checked="checked" />
+          
+          <label for="elensefar_courtyard">Elensefar Courtyard</label>
+          <input type="checkbox" name="elensefar_courtyard" id="elensefar_courtyard" value="1" />
+          
+          <label for="fallenstar_lake">Fallenstar Lake</label>
+          <input type="checkbox" name="fallenstar_lake" id="fallenstar_lake" value="1" checked="checked" />
+          
+          <label for="hamlets">Hamlets</label>
+          <input type="checkbox" name="hamlets" id="hamlets" value="1" checked="checked" />
+          
+          <label for="hornshark_island">Hornshark Island</label>
+          <input type="checkbox" name="hornshark_island" id="hornshark_island" value="1" checked="checked" />
+          
+          <label for="howling_ghost_badlands">Howling Ghost Badlands</label>
+          <input type="checkbox" name="howling_ghost_badlands" id="howling_ghost_badlands" value="1" checked="checked" />
+          
+          <label for="sablestone_delta">Sablestone Delta</label>
+          <input type="checkbox" name="sablestone_delta" id="sablestone_delta" value="1" checked="checked" />
+          
+          <label for="silverhead_crossing">Silverhead Crossing</label>
+          <input type="checkbox" name="silverhead_crossing" id="silverhead_crossing" value="1" checked="checked"/>
+          
+          <label for="sullas_ruins">Sullas Ruin's</label>
+          <input type="checkbox" name="sullas_ruins" id="sullas_ruins" value="1" checked="checked" />
+          
+          <label for="the_freelands">The Freelands</label>
+          <input type="checkbox" name="the_freelands" id="the_freelands" value="1" checked="checked" />
+          
+          <label for="thousand_stings_garrison">Thousand Stings Garrison</label>
+          <input type="checkbox" name="thousand_stings_garrison" id="thousand_stings_garrison" value="1" checked="checked" />
+          
+          <label for="tombs_of_kesorak">Tombs Of Kesorak</label>
+          <input type="checkbox" name="tombs_of_kesorak" id="tombs_of_kesorak" value="1" />
+          
+          <label for="weldyn_channel">Weldyn Channel</label>
+          <input type="checkbox" name="weldyn_channel" id="weldyn_channel" value="1" checked="checked" />
+          
+          <input type="submit" value="Roar!" />
+        </form>
+      </section>
+      
+      <section>
+        Generator compatible with <span>one</span> dot <span>ten</span>.<br />
+        Select at least two maps and save generated file in:<br />
+        <span>data/add-ons/Rushed_By_Yetis/campaigns</span>.
+      </section>
+      
+      <footer>
+        All yetis were photoshoped.
+      </footer>
+    </div>
+  </body>
+</html>

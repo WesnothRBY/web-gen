@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Yeti;
+  src: url(/arfmoochikncheez.ttf) format("truetype");
+}
+
+html {
+  background: #e3f6f3 url(/images/background.jpg) no-repeat center center;
+  color: #444;
+  font-family: Yeti, Helvetica, Arial, sans-serif;
+  padding: 2em;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 32em;
+}
+
+header {
+  display: block;
+  margin: .6em 0;
+  line-height: 1.8em;
+}
+
+header h1 {
+  color: #e76a09;
+  padding-left: 2.4em;
+  padding-top: .6em;
+  position: relative;
+  text-shadow: rgba(0, 0, 0, 0.2) .1em .1em;
+}
+
+header h1 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+header h1 small {
+  color: #e7b709;
+  display: block;
+  font-size: .4em;
+  margin-top: -.4em;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
+}
+
+section {
+  background-color: rgba(173, 216, 199, 0.8);
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  display: block;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+  padding: 1em 2em;
+}
+
+section p {
+  margin: 0;
+}
+
+section span {
+  color: #e76a09;
+}
+
+label {
+  display: inline-block;
+  width: 12em;
+}
+
+input[type=submit] {
+  display: block;
+  margin-top: 1em;
+}
+
+footer {
+  display: block;
+  font-size: .6em;
+  text-align: right;
+}
