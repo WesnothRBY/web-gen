@@ -1,6 +1,6 @@
 #textdomain wesnoth-multiplayer
 [multiplayer]
-    id="RBY_Custom " {RBY_RELEASE}
+    id="RBY Custom " {RBY_RELEASE}
     name= _ "RBY Custom " {RBY_RELEASE}
     description= _ "/names/."
 
