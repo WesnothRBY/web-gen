@@ -8,7 +8,10 @@
 
     [event]
         name=prestart
-        {RANDOM 0../max/}
+
+        [lua]
+            code = << wesnoth.set_variable("random", math.random(0, /max/)) >>
+        [/lua]
 
         [switch]
             variable=random
