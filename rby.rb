@@ -16,7 +16,7 @@ helpers do
     %w[
       aethermaw arcanclave_citadel astral_port caves_of_the_basilisk crescent_lake cynsaun_battlefield
       den_of_onis elensefar_courtyard fallenstar_lake hamlets hornshark_island howling_ghost_badlands
-      sablestone_delta silverhead_crossing sullas_ruins the_freelands
+      sablestone_delta serpent_ford silverhead_crossing sullas_ruins swamp_of_dread the_freelands
       tombs_of_kesorak thousand_stings_garrison weldyn_channel
     ]
   end
